@@ -1,11 +1,4 @@
-#
-# Copyright (C) 2021-2022 by Alexa_Help@Github, < https://github.com/TheTeamAlexa >.
-# A Powerful Music Bot Property Of Rocks Indian Largest Chatting Group
 
-# Kanged By © @Dr_Asad_Ali
-# Rocks © @Shayri_Music_Lovers
-# Owner Asad Ali
-# Harshit Sharma
 # All rights reserved. © Alisha © Alexa © Yukki
 
 
@@ -60,7 +53,7 @@ async def play_commnd(
 ):
     if not await is_served_user(message.from_user.id):
         await message.reply_text(
-            text="😢 ᴅᴇᴀʀ ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴀ ᴠᴇʀɪғɪᴇᴅ ᴀᴛ ᴀʟᴇxᴀ ᴅᴀᴛᴀʙᴀsᴇ.\n☔ ᴘʟᴇᴀsᴇ ᴜsᴇ /verify ᴛᴏ ᴠᴇʀɪғʏ ʏᴏᴜʀsᴇʟғ ᴀᴛ ᴀʟᴇxᴀ ᴅᴀᴛᴀʙᴀsᴇ.",
+            text="😢 ᴅᴇᴀʀ ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴀ ᴠᴇʀɪғɪᴇᴅ ᴀᴛ Nil's ᴅᴀᴛᴀʙᴀsᴇ.\n☔ ᴘʟᴇᴀsᴇ ᴜsᴇ /verify ᴛᴏ ᴠᴇʀɪғʏ ʏᴏᴜʀsᴇʟғ ᴀᴛ Nil's ᴅᴀᴛᴀʙᴀsᴇ.",
         )
         return
     mystic = await message.reply_text(
